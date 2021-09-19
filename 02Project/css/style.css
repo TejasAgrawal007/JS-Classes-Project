@@ -1,0 +1,38 @@
+body {
+  background-color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  margin: 26px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  padding: 15px 20px;
+  width: 120px;
+  font-size: 18px;
+  font-weight: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: brown;
+  background: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
+}
