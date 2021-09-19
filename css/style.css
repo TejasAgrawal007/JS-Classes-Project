@@ -1,0 +1,27 @@
+body {
+  /* background-color: #121212; */
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.blubSwitch {
+  margin-top: 20px;
+}
+
+.blubSwitch {
+  width: 150px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: rgb(134, 16, 36);
+  color: #fff;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: bolder;
+}
